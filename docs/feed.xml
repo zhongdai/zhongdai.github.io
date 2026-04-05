@@ -7,19 +7,19 @@
     <id>https://zhongdai.github.io/</id>
     
     <entry>
-        <title>Example Site</title>
-        <link href="https://example.com" rel="alternate"/>
-        <id>https://example.com</id>
+        <title>Calculating Empires</title>
+        <link href="https://calculatingempires.net/" rel="alternate"/>
+        <id>https://calculatingempires.net/</id>
         <updated>2026-04-04T00:00:00Z</updated>
-        <summary>A placeholder entry for testing the build process.</summary>
+        <summary>A large-scale research visualization mapping how technical and social structures co-evolved over five centuries. By Kate Crawford and Vladan Joler.</summary>
     </entry>
     
     <entry>
-        <title>Jinja2 Documentation</title>
-        <link href="https://jinja.palletsprojects.com" rel="alternate"/>
-        <id>https://jinja.palletsprojects.com</id>
-        <updated>2026-04-03T00:00:00Z</updated>
-        <summary>The official documentation for the Jinja2 template engine.</summary>
+        <title>Hotkey Cheatsheet</title>
+        <link href="https://hotkeycheatsheet.com/" rel="alternate"/>
+        <id>https://hotkeycheatsheet.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>Visual keyboard shortcut references for popular apps and tools. Great for discovering shortcuts you didn&#39;t know existed.</summary>
     </entry>
     
 </feed>
