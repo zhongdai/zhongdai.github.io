@@ -1,9 +1,0 @@
-url: https://huggingface.co/spaces/stabilityai/stable-diffusion
-title: Stable Diffusion – Hugging Face Demo
-description: A free browser demo of Stability AI's Stable Diffusion image generation model hosted on Hugging Face Spaces. Type a text prompt and generate AI images without any local setup.
-tags:
-  - ai
-  - image-generation
-  - art
-  - tools
-date: 2026-04-04
