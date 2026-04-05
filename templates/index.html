@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarks</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="alternate" type="application/atom+xml" title="Bookmarks Feed" href="feed.xml">
+</head>
+<body>
+    <header>
+        <h1>Bookmarks</h1>
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <span class="icon-sun">&#9728;</span>
+            <span class="icon-moon">&#9790;</span>
+        </button>
+    </header>
+
+    <div class="controls">
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search bookmarks..." aria-label="Search bookmarks">
+            <button id="clear-filters" type="button">Clear</button>
+        </div>
+        <div class="tag-bar" id="tag-bar">
+            {% for tag in tags %}
+            <button class="tag-pill" data-tag="{{ tag }}" type="button">{{ tag }}</button>
+            {% endfor %}
+        </div>
+        <p class="entry-count" id="entry-count"></p>
+    </div>
+
+    <main class="card-grid" id="card-grid">
+        {% for entry in entries %}
+        <article class="card"
+                 data-title="{{ entry.title | lower }}"
+                 data-description="{{ entry.description | lower }}"
+                 data-tags="{{ entry.tags | join(' ') | lower }}">
+            <h2><a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a></h2>
+            <p class="description">{{ entry.description }}</p>
+            <time datetime="{{ entry.date }}">{{ entry.date.strftime('%b %-d, %Y') }}</time>
+            <div class="tags">
+                {% for tag in entry.tags %}
+                <span class="tag-pill">{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </article>
+        {% endfor %}
+    </main>
+
+    <footer>
+        <a href="feed.xml">RSS Feed</a>
+    </footer>
+
+    <script src="static/app.js"></script>
+</body>
+</html>

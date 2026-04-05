@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Bookmarks</title>
+    <link href="https://zhongdai.github.io/" rel="alternate"/>
+    <link href="https://zhongdai.github.io/feed.xml" rel="self"/>
+    <updated>{{ build_date }}T00:00:00Z</updated>
+    <id>https://zhongdai.github.io/</id>
+    {% for entry in entries %}
+    <entry>
+        <title>{{ entry.title }}</title>
+        <link href="{{ entry.url }}" rel="alternate"/>
+        <id>{{ entry.url }}</id>
+        <updated>{{ entry.date }}T00:00:00Z</updated>
+        <summary>{{ entry.description }}</summary>
+    </entry>
+    {% endfor %}
+</feed>
