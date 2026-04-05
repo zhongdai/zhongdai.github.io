@@ -7,6 +7,78 @@
     <id>https://zhongdai.github.io/</id>
     
     <entry>
+        <title>A Soft Murmur – Ambient Sound Mixer</title>
+        <link href="http://asoftmurmur.com/" rel="alternate"/>
+        <id>http://asoftmurmur.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A customizable ambient sound mixer blending rain, thunder, waves, fire, wind, and other soothing background noises. Mix them to your preferred levels for focus or relaxation.</summary>
+    </entry>
+    
+    <entry>
+        <title>Learning Music – Ableton Interactive Course</title>
+        <link href="https://learningmusic.ableton.com/zh-Hans/" rel="alternate"/>
+        <id>https://learningmusic.ableton.com/zh-Hans/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A free, browser-based interactive course by Ableton that teaches the fundamentals of music production, including beats, basslines, chords, and song structure, with no downloads required.</summary>
+    </entry>
+    
+    <entry>
+        <title>Adobe Color – Color Wheel &amp; Palette Generator</title>
+        <link href="https://color.adobe.com/zh/create/color-wheel" rel="alternate"/>
+        <id>https://color.adobe.com/zh/create/color-wheel</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>Adobe&#39;s professional color wheel tool for creating harmonious color palettes using complementary, analogous, triadic, and other color rules. Export palettes directly to Creative Cloud apps.</summary>
+    </entry>
+    
+    <entry>
+        <title>AirPano – Aerial 360° Virtual Tours</title>
+        <link href="http://www.airpano.com/" rel="alternate"/>
+        <id>http://www.airpano.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A collection of stunning aerial 360-degree panoramic photos and video tours of the world&#39;s most iconic and remote locations, captured by drone and helicopter.</summary>
+    </entry>
+    
+    <entry>
+        <title>All History</title>
+        <link href="https://www.allhistory.com/" rel="alternate"/>
+        <id>https://www.allhistory.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>An interactive world history platform that maps historical events, civilizations, and timelines on a visual global map. Explore how empires rose and fell across time and geography.</summary>
+    </entry>
+    
+    <entry>
+        <title>Aporee Radio Maps – World Sound Map</title>
+        <link href="https://aporee.org/maps/" rel="alternate"/>
+        <id>https://aporee.org/maps/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A global map of field recordings and sound art contributions from around the world. Click any pin to listen to what the world sounds like in that specific place.</summary>
+    </entry>
+    
+    <entry>
+        <title>AutoDraw – AI Drawing Assistant</title>
+        <link href="https://aiexperiments.withgoogle.com/autodraw" rel="alternate"/>
+        <id>https://aiexperiments.withgoogle.com/autodraw</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A Google AI experiment that turns rough doodles into clean illustrations by guessing what you&#39;re drawing and suggesting professional clip art alternatives in real time.</summary>
+    </entry>
+    
+    <entry>
+        <title>BGMC Station – Cafe Background Music</title>
+        <link href="https://bgmc-station.com/" rel="alternate"/>
+        <id>https://bgmc-station.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A curated streaming station playing relaxed, jazzy background music in the style of a Japanese coffee shop or cafe. Perfect for focus, studying, or simply unwinding.</summary>
+    </entry>
+    
+    <entry>
+        <title>BigPixel – Gigapixel City Photos</title>
+        <link href="https://bigpixel.cn/zh-CN.html" rel="alternate"/>
+        <id>https://bigpixel.cn/zh-CN.html</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>An interactive viewer for enormous gigapixel panoramic photographs of Chinese cities and world landmarks. Zoom in to street-level detail from a single sweeping cityscape image.</summary>
+    </entry>
+    
+    <entry>
         <title>Calculating Empires</title>
         <link href="https://calculatingempires.net/" rel="alternate"/>
         <id>https://calculatingempires.net/</id>
@@ -15,11 +87,467 @@
     </entry>
     
     <entry>
+        <title>Calligrapher.ai – AI Handwriting Generator</title>
+        <link href="https://www.calligrapher.ai/" rel="alternate"/>
+        <id>https://www.calligrapher.ai/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>Generates realistic handwritten text in multiple styles using a neural network. Type any text and download it as an SVG in a variety of natural-looking cursive styles.</summary>
+    </entry>
+    
+    <entry>
+        <title>Chess.com</title>
+        <link href="https://www.chess.com/" rel="alternate"/>
+        <id>https://www.chess.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>The world&#39;s largest online chess platform, offering games against players worldwide, puzzles, lessons, and analysis tools for all skill levels.</summary>
+    </entry>
+    
+    <entry>
+        <title>Cloud Appreciation Society</title>
+        <link href="https://cloudappreciationsociety.org/" rel="alternate"/>
+        <id>https://cloudappreciationsociety.org/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A global community dedicated to appreciating and celebrating clouds in all their forms. The site features a cloud gallery, cloud types guide, and a manifesto against blue-sky thinking.</summary>
+    </entry>
+    
+    <entry>
+        <title>Coding Font – Font Comparison Tournament</title>
+        <link href="https://www.codingfont.com/" rel="alternate"/>
+        <id>https://www.codingfont.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A tournament-style tool for choosing your ideal programming font. It shows two fonts side by side in a bracket format until you&#39;ve found your personal favorite coding typeface.</summary>
+    </entry>
+    
+    <entry>
+        <title>Conserve the Sound</title>
+        <link href="https://www.conservethesound.de/" rel="alternate"/>
+        <id>https://www.conservethesound.de/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>An online museum of disappearing sounds, archiving audio recordings of obsolete everyday objects like rotary phones, film cameras, and typewriters. A sonic time capsule of the analog world.</summary>
+    </entry>
+    
+    <entry>
+        <title>Coursera – Online Learning Platform</title>
+        <link href="https://www.coursera.org/" rel="alternate"/>
+        <id>https://www.coursera.org/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A leading online learning platform offering courses, certificates, and degrees from top universities and companies worldwide. Covers topics from computer science to business and the arts.</summary>
+    </entry>
+    
+    <entry>
+        <title>DeepL Translator</title>
+        <link href="https://www.deepl.com/translator" rel="alternate"/>
+        <id>https://www.deepl.com/translator</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A high-quality neural machine translation service known for producing more natural and nuanced translations than competitors. Supports dozens of languages for text and document translation.</summary>
+    </entry>
+    
+    <entry>
+        <title>Dimensions.com – Size Reference Guide</title>
+        <link href="https://www.dimensions.com/" rel="alternate"/>
+        <id>https://www.dimensions.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A comprehensive visual reference database for the dimensions and measurements of everyday objects, spaces, buildings, and creatures. Invaluable for architects, designers, and anyone needing scale reference.</summary>
+    </entry>
+    
+    <entry>
+        <title>Driven &amp; Listened</title>
+        <link href="https://drivenlisten.com/city/" rel="alternate"/>
+        <id>https://drivenlisten.com/city/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A curated experience pairing dashcam footage of city drives with local music, letting you virtually cruise through cities around the world while listening to their sounds.</summary>
+    </entry>
+    
+    <entry>
+        <title>Encycolorpedia – Color Encyclopedia</title>
+        <link href="https://encycolorpedia.cn/named" rel="alternate"/>
+        <id>https://encycolorpedia.cn/named</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A comprehensive color reference database providing hex codes, RGB values, color names, and harmonies for thousands of named colors. Useful for designers and developers needing precise color information.</summary>
+    </entry>
+    
+    <entry>
+        <title>Gapminder Dollar Street</title>
+        <link href="https://www.gapminder.org/dollar-street/" rel="alternate"/>
+        <id>https://www.gapminder.org/dollar-street/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A photo project that visualizes how families around the world live at different income levels, organized on a &#34;street&#34; from poorest to richest. A powerful tool for understanding global inequality.</summary>
+    </entry>
+    
+    <entry>
+        <title>GIPHY – GIF Search &amp; Discovery</title>
+        <link href="https://giphy.com/" rel="alternate"/>
+        <id>https://giphy.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>The world&#39;s largest library of animated GIFs and stickers, searchable by keyword or mood. The go-to resource for finding and sharing the perfect reaction GIF.</summary>
+    </entry>
+    
+    <entry>
+        <title>Goblin Tools</title>
+        <link href="https://goblin.tools/" rel="alternate"/>
+        <id>https://goblin.tools/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A collection of AI-powered micro-tools designed to help neurodivergent people with everyday tasks like breaking down to-do items, adjusting tone, and simplifying complex text.</summary>
+    </entry>
+    
+    <entry>
+        <title>Grid Type – Font Creator</title>
+        <link href="https://www.grid-type.com/" rel="alternate"/>
+        <id>https://www.grid-type.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A browser-based tool for designing pixel and grid-based typefaces interactively. Lets you build custom fonts on a grid system and export the results.</summary>
+    </entry>
+    
+    <entry>
         <title>Hotkey Cheatsheet</title>
         <link href="https://hotkeycheatsheet.com/" rel="alternate"/>
         <id>https://hotkeycheatsheet.com/</id>
         <updated>2026-04-04T00:00:00Z</updated>
         <summary>Visual keyboard shortcut references for popular apps and tools. Great for discovering shortcuts you didn&#39;t know existed.</summary>
+    </entry>
+    
+    <entry>
+        <title>Human Benchmark</title>
+        <link href="https://humanbenchmark.com/" rel="alternate"/>
+        <id>https://humanbenchmark.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A suite of cognitive performance tests measuring reaction time, memory, typing speed, and attention. Compare your scores against global averages to see how your brain measures up.</summary>
+    </entry>
+    
+    <entry>
+        <title>IAPLC – International Aquatic Plants Layout Contest</title>
+        <link href="https://iaplc.com/c/" rel="alternate"/>
+        <id>https://iaplc.com/c/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>The world&#39;s largest aquatic plants layout contest, showcasing breathtaking underwater aquascape artwork from competitors around the globe. A gallery of the most stunning planted aquarium designs.</summary>
+    </entry>
+    
+    <entry>
+        <title>iFixit – Repair Manuals</title>
+        <link href="https://zh.ifixit.com/" rel="alternate"/>
+        <id>https://zh.ifixit.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A free, collaborative repair manual for every device, with step-by-step guides to fix phones, computers, consoles, and more. Empowers people to repair rather than replace their electronics.</summary>
+    </entry>
+    
+    <entry>
+        <title>Illuminarty – AI Image Detector</title>
+        <link href="https://illuminarty.ai/en/" rel="alternate"/>
+        <id>https://illuminarty.ai/en/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A tool that analyzes images to determine whether they were generated by AI or created by a human artist. Useful for verifying the authenticity of digital artwork and photographs.</summary>
+    </entry>
+    
+    <entry>
+        <title>Irasutoya – Free Illustrated Clipart</title>
+        <link href="https://www.irasutoya.com/" rel="alternate"/>
+        <id>https://www.irasutoya.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A massive library of free, charming Japanese-style flat illustrations covering thousands of topics, all available for free personal and commercial use. An invaluable resource for presentations and design.</summary>
+    </entry>
+    
+    <entry>
+        <title>SpaceX ISS Docking Simulator</title>
+        <link href="https://iss-sim.spacex.com/" rel="alternate"/>
+        <id>https://iss-sim.spacex.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>An official SpaceX browser simulation of manually docking a Crew Dragon spacecraft to the International Space Station, using the same interface as real astronauts. Surprisingly difficult and engaging.</summary>
+    </entry>
+    
+    <entry>
+        <title>LALAL.AI – Stem Splitter &amp; Vocal Remover</title>
+        <link href="https://www.lalal.ai/" rel="alternate"/>
+        <id>https://www.lalal.ai/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>An AI-powered audio separation tool that splits any track into individual stems — vocals, drums, bass, piano, and more. Useful for musicians, remixers, and karaoke creation.</summary>
+    </entry>
+    
+    <entry>
+        <title>Liquid Metal Effect Generator</title>
+        <link href="https://liquid.paper.design/" rel="alternate"/>
+        <id>https://liquid.paper.design/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A browser-based creative tool that generates mesmerizing liquid metal and chrome visual effects. Adjust parameters to produce unique fluid metallic textures for design use.</summary>
+    </entry>
+    
+    <entry>
+        <title>MuscleWiki – Exercise Encyclopedia</title>
+        <link href="https://musclewiki.com/" rel="alternate"/>
+        <id>https://musclewiki.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>An interactive anatomy-based fitness reference where you click on a muscle to find exercises that target it, complete with video demonstrations and instructions. A practical guide for gym-goers.</summary>
+    </entry>
+    
+    <entry>
+        <title>NBFox – High-Resolution Fine Art Images</title>
+        <link href="https://www.nbfox.com/" rel="alternate"/>
+        <id>https://www.nbfox.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A gallery of high-resolution scans of world-famous paintings sourced from major museums, available for free download and use. Browse masterworks from centuries of art history in stunning detail.</summary>
+    </entry>
+    
+    <entry>
+        <title>noclip – Video Game Map Museum</title>
+        <link href="https://noclip.website/" rel="alternate"/>
+        <id>https://noclip.website/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A browser-based 3D viewer that lets you freely explore the levels and maps from dozens of classic video games, extracted directly from the game files. Walk through Nintendo, Capcom, and other iconic game worlds.</summary>
+    </entry>
+    
+    <entry>
+        <title>Nyan Cat</title>
+        <link href="https://www.nyan.cat/" rel="alternate"/>
+        <id>https://www.nyan.cat/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>The original Nyan Cat website featuring the iconic internet meme of a flying pop-tart cat leaving a rainbow trail, accompanied by its looping chiptune theme song.</summary>
+    </entry>
+    
+    <entry>
+        <title>Pexels – Free Stock Photos &amp; Videos</title>
+        <link href="https://www.pexels.com/zh-cn/" rel="alternate"/>
+        <id>https://www.pexels.com/zh-cn/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A large library of free, high-quality stock photos and videos contributed by creators worldwide, all licensed for free personal and commercial use without attribution required.</summary>
+    </entry>
+    
+    <entry>
+        <title>Pod.link – Podcast Search Engine</title>
+        <link href="https://pod.link/" rel="alternate"/>
+        <id>https://pod.link/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A universal podcast search and sharing tool that generates smart links to any podcast, automatically redirecting listeners to their preferred podcast app. Great for discovering and sharing shows.</summary>
+    </entry>
+    
+    <entry>
+        <title>Pointer Pointer</title>
+        <link href="https://pointerpointer.com/" rel="alternate"/>
+        <id>https://pointerpointer.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A delightfully pointless website that finds a photograph of someone pointing at exactly where your mouse cursor is on the screen. Move your mouse to discover a new image every time.</summary>
+    </entry>
+    
+    <entry>
+        <title>Product Hunt</title>
+        <link href="https://www.producthunt.com/" rel="alternate"/>
+        <id>https://www.producthunt.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A daily leaderboard and community for discovering the newest and most interesting apps, tools, and tech products. Makers launch products here and the community votes on their favorites.</summary>
+    </entry>
+    
+    <entry>
+        <title>Radio Garden – Global Radio Globe</title>
+        <link href="http://radio.garden/live/tokyo/j-idols-project-radio/" rel="alternate"/>
+        <id>http://radio.garden/live/tokyo/j-idols-project-radio/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>Explore live radio stations from around the world by spinning an interactive 3D globe. Click any green dot to instantly tune into a local radio station from that location.</summary>
+    </entry>
+    
+    <entry>
+        <title>Remove.bg – Background Remover</title>
+        <link href="https://www.remove.bg/" rel="alternate"/>
+        <id>https://www.remove.bg/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>An AI-powered tool that instantly and accurately removes backgrounds from photos in one click. Works especially well on portraits and product images with complex edges.</summary>
+    </entry>
+    
+    <entry>
+        <title>Retryables – Creative Mini-Games Collection</title>
+        <link href="https://retryables.com/" rel="alternate"/>
+        <id>https://retryables.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A curated collection of creative, experimental browser-based mini-games and interactive experiences. Each game is unique and designed to be replayed.</summary>
+    </entry>
+    
+    <entry>
+        <title>Rooms.xyz – Interactive Room Builder</title>
+        <link href="https://rooms.xyz/" rel="alternate"/>
+        <id>https://rooms.xyz/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A browser-based sandbox for building and decorating virtual 3D rooms with furniture and objects. Create whimsical spaces and share them as interactive links.</summary>
+    </entry>
+    
+    <entry>
+        <title>Sandtris</title>
+        <link href="https://sandtris.com/" rel="alternate"/>
+        <id>https://sandtris.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A browser-based puzzle game combining Tetris-style falling blocks with falling sand physics simulation. Watch your pieces dissolve into cascading sand particles.</summary>
+    </entry>
+    
+    <entry>
+        <title>ShotDeck – Film Reference Library</title>
+        <link href="https://shotdeck.com/welcome/home" rel="alternate"/>
+        <id>https://shotdeck.com/welcome/home</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A searchable visual library of cinematic still frames from thousands of films, filterable by color, lighting, lens, aspect ratio, and mood. An essential reference tool for filmmakers and cinematographers.</summary>
+    </entry>
+    
+    <entry>
+        <title>Sketchfab – 3D Model Viewer &amp; Marketplace</title>
+        <link href="https://sketchfab.com/" rel="alternate"/>
+        <id>https://sketchfab.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>The largest platform for publishing, sharing, and discovering 3D and AR/VR content. Browse millions of free and purchasable 3D models viewable directly in the browser.</summary>
+    </entry>
+    
+    <entry>
+        <title>Slow Roads</title>
+        <link href="https://slowroads.io/" rel="alternate"/>
+        <id>https://slowroads.io/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A relaxing, endless procedurally generated driving experience in the browser. Choose your scenery and just drive through beautiful landscapes with no objectives or pressure.</summary>
+    </entry>
+    
+    <entry>
+        <title>Songsterr – Guitar Tabs &amp; Sheet Music</title>
+        <link href="https://www.songsterr.com/" rel="alternate"/>
+        <id>https://www.songsterr.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A large online library of interactive guitar, bass, and drum tabs with playback. Tabs scroll in sync with audio so you can follow along and practice songs at your own pace.</summary>
+    </entry>
+    
+    <entry>
+        <title>Spread the Sign – Sign Language Dictionary</title>
+        <link href="https://www.spreadthesign.com/" rel="alternate"/>
+        <id>https://www.spreadthesign.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A multilingual online sign language video dictionary covering dozens of countries&#39; sign languages. Look up words and see video demonstrations of how to sign them.</summary>
+    </entry>
+    
+    <entry>
+        <title>Spurious Correlations</title>
+        <link href="http://tylervigen.com/spurious-correlations" rel="alternate"/>
+        <id>http://tylervigen.com/spurious-correlations</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A humorous data project by Tyler Vigen that charts absurd but statistically real correlations between unrelated variables, like Nicolas Cage films and drowning rates. A fun lesson in why correlation is not causation.</summary>
+    </entry>
+    
+    <entry>
+        <title>Stable Diffusion – Hugging Face Demo</title>
+        <link href="https://huggingface.co/spaces/stabilityai/stable-diffusion" rel="alternate"/>
+        <id>https://huggingface.co/spaces/stabilityai/stable-diffusion</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A free browser demo of Stability AI&#39;s Stable Diffusion image generation model hosted on Hugging Face Spaces. Type a text prompt and generate AI images without any local setup.</summary>
+    </entry>
+    
+    <entry>
+        <title>Suno – AI Music Generator</title>
+        <link href="https://suno.com/" rel="alternate"/>
+        <id>https://suno.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>An AI-powered music generation platform that creates full songs complete with lyrics, vocals, and instrumentation from a text prompt. Generate music in any genre in seconds.</summary>
+    </entry>
+    
+    <entry>
+        <title>The Pudding</title>
+        <link href="https://pudding.cool/" rel="alternate"/>
+        <id>https://pudding.cool/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A digital publication that uses visual essays and data journalism to explore culture, music, film, and society. Each piece is a richly interactive, data-driven narrative.</summary>
+    </entry>
+    
+    <entry>
+        <title>The Useless Web</title>
+        <link href="http://www.theuselessweb.com/" rel="alternate"/>
+        <id>http://www.theuselessweb.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A button that sends you to a random, wonderfully pointless website from the long tradition of weird, creative, and absurd corners of the internet. Press it and surrender to serendipity.</summary>
+    </entry>
+    
+    <entry>
+        <title>Tuxun – Geography Guessing Game</title>
+        <link href="https://tuxun.fun/" rel="alternate"/>
+        <id>https://tuxun.fun/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A GeoGuessr-style geography guessing game where you identify locations from street-level panoramic images. Compete against others or play solo to test your world geography knowledge.</summary>
+    </entry>
+    
+    <entry>
+        <title>TypeRacer – Typing Speed Competition</title>
+        <link href="https://play.typeracer.com/" rel="alternate"/>
+        <id>https://play.typeracer.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A multiplayer typing race game where you compete against others in real time by typing out quotes from books, movies, and songs. A fun and effective way to improve your typing speed.</summary>
+    </entry>
+    
+    <entry>
+        <title>User Inyerface – Worst UI Game</title>
+        <link href="https://userinyerface.com/game.html" rel="alternate"/>
+        <id>https://userinyerface.com/game.html</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A darkly humorous browser game that deliberately uses every known UI/UX anti-pattern and dark pattern to frustrate you as you try to fill out a form. Educational and infuriating in equal measure.</summary>
+    </entry>
+    
+    <entry>
+        <title>Virtual Mauritshuis Museum</title>
+        <link href="https://virtual.mauritshuis.nl/index.html" rel="alternate"/>
+        <id>https://virtual.mauritshuis.nl/index.html</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A fully immersive virtual tour of the Mauritshuis museum in The Hague, home to Vermeer&#39;s Girl with a Pearl Earring and other Dutch Golden Age masterpieces. Explore galleries at your own pace.</summary>
+    </entry>
+    
+    <entry>
+        <title>Virtual St. Peter&#39;s Basilica</title>
+        <link href="https://virtual.basilicasanpietro.va/en" rel="alternate"/>
+        <id>https://virtual.basilicasanpietro.va/en</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>An official immersive virtual tour of St. Peter&#39;s Basilica in Vatican City, allowing you to explore the iconic Renaissance church in stunning high-resolution 360-degree detail.</summary>
+    </entry>
+    
+    <entry>
+        <title>Wallhaven – Wallpaper Community</title>
+        <link href="https://wallhaven.cc/" rel="alternate"/>
+        <id>https://wallhaven.cc/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A large community-curated wallpaper site with millions of high-resolution desktop wallpapers. Features powerful filtering by resolution, aspect ratio, color, and category.</summary>
+    </entry>
+    
+    <entry>
+        <title>Watabou&#39;s Procedural Generators</title>
+        <link href="https://watabou.github.io/" rel="alternate"/>
+        <id>https://watabou.github.io/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A collection of procedural map and world generators for tabletop RPGs and game development, including city maps, dungeon layouts, and fantasy regions. All run in the browser with one click.</summary>
+    </entry>
+    
+    <entry>
+        <title>Weave Silk – Generative Art Canvas</title>
+        <link href="http://weavesilk.com/" rel="alternate"/>
+        <id>http://weavesilk.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>An interactive generative art tool that creates beautiful, symmetrical silk-like patterns as you draw with your mouse. Every stroke produces mesmerizing, mirror-reflected flowing lines.</summary>
+    </entry>
+    
+    <entry>
+        <title>Window Swap</title>
+        <link href="https://window-swap.com/" rel="alternate"/>
+        <id>https://window-swap.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A community project where people share video recordings of the view from their windows, letting you virtually look out of a stranger&#39;s window anywhere in the world. Calming and unexpectedly moving.</summary>
+    </entry>
+    
+    <entry>
+        <title>Windy – Interactive Weather Map</title>
+        <link href="https://www.windy.com/" rel="alternate"/>
+        <id>https://www.windy.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A beautifully animated, interactive global weather map showing wind, precipitation, temperature, and air quality in real time. Used by pilots, sailors, and weather enthusiasts worldwide.</summary>
+    </entry>
+    
+    <entry>
+        <title>Wolfram Alpha – Computational Knowledge Engine</title>
+        <link href="http://www.wolframalpha.com/" rel="alternate"/>
+        <id>http://www.wolframalpha.com/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A unique computational search engine that answers factual and mathematical queries by computing answers from curated data, rather than linking to web pages. Handles math, science, history, and more.</summary>
+    </entry>
+    
+    <entry>
+        <title>Simple Home Recipes</title>
+        <link href="https://cook.yunyoujun.cn/" rel="alternate"/>
+        <id>https://cook.yunyoujun.cn/</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A clean, minimal recipe site featuring easy everyday recipes designed for home cooking, presented in a simple, readable format without clutter or excessive photography.</summary>
     </entry>
     
 </feed>

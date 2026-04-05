@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/style.css">
     <link rel="alternate" type="application/atom+xml" title="Finds Feed" href="feed.xml">
 </head>
@@ -23,21 +26,211 @@
         </div>
         <div class="tag-bar" id="tag-bar">
             
-            <button class="tag-pill" data-tag="data-visualization" type="button">data-visualization</button>
+            <button class="tag-pill" data-tag="tools" type="button">tools</button>
             
-            <button class="tag-pill" data-tag="history" type="button">history</button>
+            <button class="tag-pill" data-tag="art" type="button">art</button>
             
-            <button class="tag-pill" data-tag="productivity" type="button">productivity</button>
+            <button class="tag-pill" data-tag="design" type="button">design</button>
             
             <button class="tag-pill" data-tag="reference" type="button">reference</button>
             
-            <button class="tag-pill" data-tag="technology" type="button">technology</button>
+            <button class="tag-pill" data-tag="game" type="button">game</button>
+            
+            <button class="tag-pill" data-tag="interactive" type="button">interactive</button>
+            
+            <button class="tag-pill" data-tag="music" type="button">music</button>
+            
+            <button class="tag-pill" data-tag="entertainment" type="button">entertainment</button>
+            
+            <button class="tag-pill" data-tag="learning" type="button">learning</button>
+            
+            <button class="tag-pill" data-tag="ai" type="button">ai</button>
             
         </div>
         <p class="entry-count" id="entry-count"></p>
     </div>
 
+    <nav class="pagination" id="pagination-top"></nav>
+
     <main class="card-grid" id="card-grid">
+        
+        <article class="card"
+                 data-title="a soft murmur – ambient sound mixer"
+                 data-description="a customizable ambient sound mixer blending rain, thunder, waves, fire, wind, and other soothing background noises. mix them to your preferred levels for focus or relaxation."
+                 data-tags="music ambient relaxation tools">
+            <h2><a href="http://asoftmurmur.com/" target="_blank" rel="noopener noreferrer">A Soft Murmur – Ambient Sound Mixer</a></h2>
+            <p class="description">A customizable ambient sound mixer blending rain, thunder, waves, fire, wind, and other soothing background noises. Mix them to your preferred levels for focus or relaxation.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="music" type="button">music</button>
+                
+                <button class="tag-pill card-tag" data-tag="ambient" type="button">ambient</button>
+                
+                <button class="tag-pill card-tag" data-tag="relaxation" type="button">relaxation</button>
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="learning music – ableton interactive course"
+                 data-description="a free, browser-based interactive course by ableton that teaches the fundamentals of music production, including beats, basslines, chords, and song structure, with no downloads required."
+                 data-tags="learning music music-production interactive">
+            <h2><a href="https://learningmusic.ableton.com/zh-Hans/" target="_blank" rel="noopener noreferrer">Learning Music – Ableton Interactive Course</a></h2>
+            <p class="description">A free, browser-based interactive course by Ableton that teaches the fundamentals of music production, including beats, basslines, chords, and song structure, with no downloads required.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="learning" type="button">learning</button>
+                
+                <button class="tag-pill card-tag" data-tag="music" type="button">music</button>
+                
+                <button class="tag-pill card-tag" data-tag="music-production" type="button">music-production</button>
+                
+                <button class="tag-pill card-tag" data-tag="interactive" type="button">interactive</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="adobe color – color wheel &amp; palette generator"
+                 data-description="adobe&#39;s professional color wheel tool for creating harmonious color palettes using complementary, analogous, triadic, and other color rules. export palettes directly to creative cloud apps."
+                 data-tags="tools color design art">
+            <h2><a href="https://color.adobe.com/zh/create/color-wheel" target="_blank" rel="noopener noreferrer">Adobe Color – Color Wheel &amp; Palette Generator</a></h2>
+            <p class="description">Adobe&#39;s professional color wheel tool for creating harmonious color palettes using complementary, analogous, triadic, and other color rules. Export palettes directly to Creative Cloud apps.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="color" type="button">color</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="airpano – aerial 360° virtual tours"
+                 data-description="a collection of stunning aerial 360-degree panoramic photos and video tours of the world&#39;s most iconic and remote locations, captured by drone and helicopter."
+                 data-tags="travel virtual-tour photography entertainment">
+            <h2><a href="http://www.airpano.com/" target="_blank" rel="noopener noreferrer">AirPano – Aerial 360° Virtual Tours</a></h2>
+            <p class="description">A collection of stunning aerial 360-degree panoramic photos and video tours of the world&#39;s most iconic and remote locations, captured by drone and helicopter.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="travel" type="button">travel</button>
+                
+                <button class="tag-pill card-tag" data-tag="virtual-tour" type="button">virtual-tour</button>
+                
+                <button class="tag-pill card-tag" data-tag="photography" type="button">photography</button>
+                
+                <button class="tag-pill card-tag" data-tag="entertainment" type="button">entertainment</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="all history"
+                 data-description="an interactive world history platform that maps historical events, civilizations, and timelines on a visual global map. explore how empires rose and fell across time and geography."
+                 data-tags="learning history maps interactive">
+            <h2><a href="https://www.allhistory.com/" target="_blank" rel="noopener noreferrer">All History</a></h2>
+            <p class="description">An interactive world history platform that maps historical events, civilizations, and timelines on a visual global map. Explore how empires rose and fell across time and geography.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="learning" type="button">learning</button>
+                
+                <button class="tag-pill card-tag" data-tag="history" type="button">history</button>
+                
+                <button class="tag-pill card-tag" data-tag="maps" type="button">maps</button>
+                
+                <button class="tag-pill card-tag" data-tag="interactive" type="button">interactive</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="aporee radio maps – world sound map"
+                 data-description="a global map of field recordings and sound art contributions from around the world. click any pin to listen to what the world sounds like in that specific place."
+                 data-tags="art music audio maps">
+            <h2><a href="https://aporee.org/maps/" target="_blank" rel="noopener noreferrer">Aporee Radio Maps – World Sound Map</a></h2>
+            <p class="description">A global map of field recordings and sound art contributions from around the world. Click any pin to listen to what the world sounds like in that specific place.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+                <button class="tag-pill card-tag" data-tag="music" type="button">music</button>
+                
+                <button class="tag-pill card-tag" data-tag="audio" type="button">audio</button>
+                
+                <button class="tag-pill card-tag" data-tag="maps" type="button">maps</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="autodraw – ai drawing assistant"
+                 data-description="a google ai experiment that turns rough doodles into clean illustrations by guessing what you&#39;re drawing and suggesting professional clip art alternatives in real time."
+                 data-tags="tools ai drawing art">
+            <h2><a href="https://aiexperiments.withgoogle.com/autodraw" target="_blank" rel="noopener noreferrer">AutoDraw – AI Drawing Assistant</a></h2>
+            <p class="description">A Google AI experiment that turns rough doodles into clean illustrations by guessing what you&#39;re drawing and suggesting professional clip art alternatives in real time.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="ai" type="button">ai</button>
+                
+                <button class="tag-pill card-tag" data-tag="drawing" type="button">drawing</button>
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="bgmc station – cafe background music"
+                 data-description="a curated streaming station playing relaxed, jazzy background music in the style of a japanese coffee shop or cafe. perfect for focus, studying, or simply unwinding."
+                 data-tags="music ambient lofi">
+            <h2><a href="https://bgmc-station.com/" target="_blank" rel="noopener noreferrer">BGMC Station – Cafe Background Music</a></h2>
+            <p class="description">A curated streaming station playing relaxed, jazzy background music in the style of a Japanese coffee shop or cafe. Perfect for focus, studying, or simply unwinding.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="music" type="button">music</button>
+                
+                <button class="tag-pill card-tag" data-tag="ambient" type="button">ambient</button>
+                
+                <button class="tag-pill card-tag" data-tag="lofi" type="button">lofi</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="bigpixel – gigapixel city photos"
+                 data-description="an interactive viewer for enormous gigapixel panoramic photographs of chinese cities and world landmarks. zoom in to street-level detail from a single sweeping cityscape image."
+                 data-tags="photography cities interactive entertainment">
+            <h2><a href="https://bigpixel.cn/zh-CN.html" target="_blank" rel="noopener noreferrer">BigPixel – Gigapixel City Photos</a></h2>
+            <p class="description">An interactive viewer for enormous gigapixel panoramic photographs of Chinese cities and world landmarks. Zoom in to street-level detail from a single sweeping cityscape image.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="photography" type="button">photography</button>
+                
+                <button class="tag-pill card-tag" data-tag="cities" type="button">cities</button>
+                
+                <button class="tag-pill card-tag" data-tag="interactive" type="button">interactive</button>
+                
+                <button class="tag-pill card-tag" data-tag="entertainment" type="button">entertainment</button>
+                
+            </div>
+        </article>
         
         <article class="card"
                  data-title="calculating empires"
@@ -48,11 +241,285 @@
             <time datetime="2026-04-04">Apr 4, 2026</time>
             <div class="tags">
                 
-                <span class="tag-pill">data-visualization</span>
+                <button class="tag-pill card-tag" data-tag="data-visualization" type="button">data-visualization</button>
                 
-                <span class="tag-pill">history</span>
+                <button class="tag-pill card-tag" data-tag="history" type="button">history</button>
                 
-                <span class="tag-pill">technology</span>
+                <button class="tag-pill card-tag" data-tag="technology" type="button">technology</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="calligrapher.ai – ai handwriting generator"
+                 data-description="generates realistic handwritten text in multiple styles using a neural network. type any text and download it as an svg in a variety of natural-looking cursive styles."
+                 data-tags="tools ai typography design">
+            <h2><a href="https://www.calligrapher.ai/" target="_blank" rel="noopener noreferrer">Calligrapher.ai – AI Handwriting Generator</a></h2>
+            <p class="description">Generates realistic handwritten text in multiple styles using a neural network. Type any text and download it as an SVG in a variety of natural-looking cursive styles.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="ai" type="button">ai</button>
+                
+                <button class="tag-pill card-tag" data-tag="typography" type="button">typography</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="chess.com"
+                 data-description="the world&#39;s largest online chess platform, offering games against players worldwide, puzzles, lessons, and analysis tools for all skill levels."
+                 data-tags="game chess strategy multiplayer">
+            <h2><a href="https://www.chess.com/" target="_blank" rel="noopener noreferrer">Chess.com</a></h2>
+            <p class="description">The world&#39;s largest online chess platform, offering games against players worldwide, puzzles, lessons, and analysis tools for all skill levels.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="game" type="button">game</button>
+                
+                <button class="tag-pill card-tag" data-tag="chess" type="button">chess</button>
+                
+                <button class="tag-pill card-tag" data-tag="strategy" type="button">strategy</button>
+                
+                <button class="tag-pill card-tag" data-tag="multiplayer" type="button">multiplayer</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="cloud appreciation society"
+                 data-description="a global community dedicated to appreciating and celebrating clouds in all their forms. the site features a cloud gallery, cloud types guide, and a manifesto against blue-sky thinking."
+                 data-tags="art nature photography community">
+            <h2><a href="https://cloudappreciationsociety.org/" target="_blank" rel="noopener noreferrer">Cloud Appreciation Society</a></h2>
+            <p class="description">A global community dedicated to appreciating and celebrating clouds in all their forms. The site features a cloud gallery, cloud types guide, and a manifesto against blue-sky thinking.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+                <button class="tag-pill card-tag" data-tag="nature" type="button">nature</button>
+                
+                <button class="tag-pill card-tag" data-tag="photography" type="button">photography</button>
+                
+                <button class="tag-pill card-tag" data-tag="community" type="button">community</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="coding font – font comparison tournament"
+                 data-description="a tournament-style tool for choosing your ideal programming font. it shows two fonts side by side in a bracket format until you&#39;ve found your personal favorite coding typeface."
+                 data-tags="tools typography programming design">
+            <h2><a href="https://www.codingfont.com/" target="_blank" rel="noopener noreferrer">Coding Font – Font Comparison Tournament</a></h2>
+            <p class="description">A tournament-style tool for choosing your ideal programming font. It shows two fonts side by side in a bracket format until you&#39;ve found your personal favorite coding typeface.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="typography" type="button">typography</button>
+                
+                <button class="tag-pill card-tag" data-tag="programming" type="button">programming</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="conserve the sound"
+                 data-description="an online museum of disappearing sounds, archiving audio recordings of obsolete everyday objects like rotary phones, film cameras, and typewriters. a sonic time capsule of the analog world."
+                 data-tags="music audio archive nostalgia">
+            <h2><a href="https://www.conservethesound.de/" target="_blank" rel="noopener noreferrer">Conserve the Sound</a></h2>
+            <p class="description">An online museum of disappearing sounds, archiving audio recordings of obsolete everyday objects like rotary phones, film cameras, and typewriters. A sonic time capsule of the analog world.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="music" type="button">music</button>
+                
+                <button class="tag-pill card-tag" data-tag="audio" type="button">audio</button>
+                
+                <button class="tag-pill card-tag" data-tag="archive" type="button">archive</button>
+                
+                <button class="tag-pill card-tag" data-tag="nostalgia" type="button">nostalgia</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="coursera – online learning platform"
+                 data-description="a leading online learning platform offering courses, certificates, and degrees from top universities and companies worldwide. covers topics from computer science to business and the arts."
+                 data-tags="learning education courses">
+            <h2><a href="https://www.coursera.org/" target="_blank" rel="noopener noreferrer">Coursera – Online Learning Platform</a></h2>
+            <p class="description">A leading online learning platform offering courses, certificates, and degrees from top universities and companies worldwide. Covers topics from computer science to business and the arts.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="learning" type="button">learning</button>
+                
+                <button class="tag-pill card-tag" data-tag="education" type="button">education</button>
+                
+                <button class="tag-pill card-tag" data-tag="courses" type="button">courses</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="deepl translator"
+                 data-description="a high-quality neural machine translation service known for producing more natural and nuanced translations than competitors. supports dozens of languages for text and document translation."
+                 data-tags="tools translation language">
+            <h2><a href="https://www.deepl.com/translator" target="_blank" rel="noopener noreferrer">DeepL Translator</a></h2>
+            <p class="description">A high-quality neural machine translation service known for producing more natural and nuanced translations than competitors. Supports dozens of languages for text and document translation.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="translation" type="button">translation</button>
+                
+                <button class="tag-pill card-tag" data-tag="language" type="button">language</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="dimensions.com – size reference guide"
+                 data-description="a comprehensive visual reference database for the dimensions and measurements of everyday objects, spaces, buildings, and creatures. invaluable for architects, designers, and anyone needing scale reference."
+                 data-tags="reference design architecture tools">
+            <h2><a href="https://www.dimensions.com/" target="_blank" rel="noopener noreferrer">Dimensions.com – Size Reference Guide</a></h2>
+            <p class="description">A comprehensive visual reference database for the dimensions and measurements of everyday objects, spaces, buildings, and creatures. Invaluable for architects, designers, and anyone needing scale reference.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="reference" type="button">reference</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+                <button class="tag-pill card-tag" data-tag="architecture" type="button">architecture</button>
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="driven &amp; listened"
+                 data-description="a curated experience pairing dashcam footage of city drives with local music, letting you virtually cruise through cities around the world while listening to their sounds."
+                 data-tags="entertainment travel music cities">
+            <h2><a href="https://drivenlisten.com/city/" target="_blank" rel="noopener noreferrer">Driven &amp; Listened</a></h2>
+            <p class="description">A curated experience pairing dashcam footage of city drives with local music, letting you virtually cruise through cities around the world while listening to their sounds.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="entertainment" type="button">entertainment</button>
+                
+                <button class="tag-pill card-tag" data-tag="travel" type="button">travel</button>
+                
+                <button class="tag-pill card-tag" data-tag="music" type="button">music</button>
+                
+                <button class="tag-pill card-tag" data-tag="cities" type="button">cities</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="encycolorpedia – color encyclopedia"
+                 data-description="a comprehensive color reference database providing hex codes, rgb values, color names, and harmonies for thousands of named colors. useful for designers and developers needing precise color information."
+                 data-tags="tools color design reference">
+            <h2><a href="https://encycolorpedia.cn/named" target="_blank" rel="noopener noreferrer">Encycolorpedia – Color Encyclopedia</a></h2>
+            <p class="description">A comprehensive color reference database providing hex codes, RGB values, color names, and harmonies for thousands of named colors. Useful for designers and developers needing precise color information.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="color" type="button">color</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+                <button class="tag-pill card-tag" data-tag="reference" type="button">reference</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="gapminder dollar street"
+                 data-description="a photo project that visualizes how families around the world live at different income levels, organized on a &#34;street&#34; from poorest to richest. a powerful tool for understanding global inequality."
+                 data-tags="learning data-visualization society photography">
+            <h2><a href="https://www.gapminder.org/dollar-street/" target="_blank" rel="noopener noreferrer">Gapminder Dollar Street</a></h2>
+            <p class="description">A photo project that visualizes how families around the world live at different income levels, organized on a &#34;street&#34; from poorest to richest. A powerful tool for understanding global inequality.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="learning" type="button">learning</button>
+                
+                <button class="tag-pill card-tag" data-tag="data-visualization" type="button">data-visualization</button>
+                
+                <button class="tag-pill card-tag" data-tag="society" type="button">society</button>
+                
+                <button class="tag-pill card-tag" data-tag="photography" type="button">photography</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="giphy – gif search &amp; discovery"
+                 data-description="the world&#39;s largest library of animated gifs and stickers, searchable by keyword or mood. the go-to resource for finding and sharing the perfect reaction gif."
+                 data-tags="reference animation internet-culture">
+            <h2><a href="https://giphy.com/" target="_blank" rel="noopener noreferrer">GIPHY – GIF Search &amp; Discovery</a></h2>
+            <p class="description">The world&#39;s largest library of animated GIFs and stickers, searchable by keyword or mood. The go-to resource for finding and sharing the perfect reaction GIF.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="reference" type="button">reference</button>
+                
+                <button class="tag-pill card-tag" data-tag="animation" type="button">animation</button>
+                
+                <button class="tag-pill card-tag" data-tag="internet-culture" type="button">internet-culture</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="goblin tools"
+                 data-description="a collection of ai-powered micro-tools designed to help neurodivergent people with everyday tasks like breaking down to-do items, adjusting tone, and simplifying complex text."
+                 data-tags="tools ai productivity accessibility">
+            <h2><a href="https://goblin.tools/" target="_blank" rel="noopener noreferrer">Goblin Tools</a></h2>
+            <p class="description">A collection of AI-powered micro-tools designed to help neurodivergent people with everyday tasks like breaking down to-do items, adjusting tone, and simplifying complex text.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="ai" type="button">ai</button>
+                
+                <button class="tag-pill card-tag" data-tag="productivity" type="button">productivity</button>
+                
+                <button class="tag-pill card-tag" data-tag="accessibility" type="button">accessibility</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="grid type – font creator"
+                 data-description="a browser-based tool for designing pixel and grid-based typefaces interactively. lets you build custom fonts on a grid system and export the results."
+                 data-tags="tools typography design art">
+            <h2><a href="https://www.grid-type.com/" target="_blank" rel="noopener noreferrer">Grid Type – Font Creator</a></h2>
+            <p class="description">A browser-based tool for designing pixel and grid-based typefaces interactively. Lets you build custom fonts on a grid system and export the results.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="typography" type="button">typography</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
                 
             </div>
         </article>
@@ -66,14 +533,852 @@
             <time datetime="2026-04-04">Apr 4, 2026</time>
             <div class="tags">
                 
-                <span class="tag-pill">productivity</span>
+                <button class="tag-pill card-tag" data-tag="productivity" type="button">productivity</button>
                 
-                <span class="tag-pill">reference</span>
+                <button class="tag-pill card-tag" data-tag="reference" type="button">reference</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="human benchmark"
+                 data-description="a suite of cognitive performance tests measuring reaction time, memory, typing speed, and attention. compare your scores against global averages to see how your brain measures up."
+                 data-tags="game cognitive self-improvement interactive">
+            <h2><a href="https://humanbenchmark.com/" target="_blank" rel="noopener noreferrer">Human Benchmark</a></h2>
+            <p class="description">A suite of cognitive performance tests measuring reaction time, memory, typing speed, and attention. Compare your scores against global averages to see how your brain measures up.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="game" type="button">game</button>
+                
+                <button class="tag-pill card-tag" data-tag="cognitive" type="button">cognitive</button>
+                
+                <button class="tag-pill card-tag" data-tag="self-improvement" type="button">self-improvement</button>
+                
+                <button class="tag-pill card-tag" data-tag="interactive" type="button">interactive</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="iaplc – international aquatic plants layout contest"
+                 data-description="the world&#39;s largest aquatic plants layout contest, showcasing breathtaking underwater aquascape artwork from competitors around the globe. a gallery of the most stunning planted aquarium designs."
+                 data-tags="art aquascaping nature contest">
+            <h2><a href="https://iaplc.com/c/" target="_blank" rel="noopener noreferrer">IAPLC – International Aquatic Plants Layout Contest</a></h2>
+            <p class="description">The world&#39;s largest aquatic plants layout contest, showcasing breathtaking underwater aquascape artwork from competitors around the globe. A gallery of the most stunning planted aquarium designs.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+                <button class="tag-pill card-tag" data-tag="aquascaping" type="button">aquascaping</button>
+                
+                <button class="tag-pill card-tag" data-tag="nature" type="button">nature</button>
+                
+                <button class="tag-pill card-tag" data-tag="contest" type="button">contest</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="ifixit – repair manuals"
+                 data-description="a free, collaborative repair manual for every device, with step-by-step guides to fix phones, computers, consoles, and more. empowers people to repair rather than replace their electronics."
+                 data-tags="tools repair diy electronics">
+            <h2><a href="https://zh.ifixit.com/" target="_blank" rel="noopener noreferrer">iFixit – Repair Manuals</a></h2>
+            <p class="description">A free, collaborative repair manual for every device, with step-by-step guides to fix phones, computers, consoles, and more. Empowers people to repair rather than replace their electronics.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="repair" type="button">repair</button>
+                
+                <button class="tag-pill card-tag" data-tag="diy" type="button">diy</button>
+                
+                <button class="tag-pill card-tag" data-tag="electronics" type="button">electronics</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="illuminarty – ai image detector"
+                 data-description="a tool that analyzes images to determine whether they were generated by ai or created by a human artist. useful for verifying the authenticity of digital artwork and photographs."
+                 data-tags="tools ai image-detection">
+            <h2><a href="https://illuminarty.ai/en/" target="_blank" rel="noopener noreferrer">Illuminarty – AI Image Detector</a></h2>
+            <p class="description">A tool that analyzes images to determine whether they were generated by AI or created by a human artist. Useful for verifying the authenticity of digital artwork and photographs.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="ai" type="button">ai</button>
+                
+                <button class="tag-pill card-tag" data-tag="image-detection" type="button">image-detection</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="irasutoya – free illustrated clipart"
+                 data-description="a massive library of free, charming japanese-style flat illustrations covering thousands of topics, all available for free personal and commercial use. an invaluable resource for presentations and design."
+                 data-tags="reference illustration design free-resources">
+            <h2><a href="https://www.irasutoya.com/" target="_blank" rel="noopener noreferrer">Irasutoya – Free Illustrated Clipart</a></h2>
+            <p class="description">A massive library of free, charming Japanese-style flat illustrations covering thousands of topics, all available for free personal and commercial use. An invaluable resource for presentations and design.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="reference" type="button">reference</button>
+                
+                <button class="tag-pill card-tag" data-tag="illustration" type="button">illustration</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+                <button class="tag-pill card-tag" data-tag="free-resources" type="button">free-resources</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="spacex iss docking simulator"
+                 data-description="an official spacex browser simulation of manually docking a crew dragon spacecraft to the international space station, using the same interface as real astronauts. surprisingly difficult and engaging."
+                 data-tags="game space simulation interactive">
+            <h2><a href="https://iss-sim.spacex.com/" target="_blank" rel="noopener noreferrer">SpaceX ISS Docking Simulator</a></h2>
+            <p class="description">An official SpaceX browser simulation of manually docking a Crew Dragon spacecraft to the International Space Station, using the same interface as real astronauts. Surprisingly difficult and engaging.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="game" type="button">game</button>
+                
+                <button class="tag-pill card-tag" data-tag="space" type="button">space</button>
+                
+                <button class="tag-pill card-tag" data-tag="simulation" type="button">simulation</button>
+                
+                <button class="tag-pill card-tag" data-tag="interactive" type="button">interactive</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="lalal.ai – stem splitter &amp; vocal remover"
+                 data-description="an ai-powered audio separation tool that splits any track into individual stems — vocals, drums, bass, piano, and more. useful for musicians, remixers, and karaoke creation."
+                 data-tags="tools music ai audio">
+            <h2><a href="https://www.lalal.ai/" target="_blank" rel="noopener noreferrer">LALAL.AI – Stem Splitter &amp; Vocal Remover</a></h2>
+            <p class="description">An AI-powered audio separation tool that splits any track into individual stems — vocals, drums, bass, piano, and more. Useful for musicians, remixers, and karaoke creation.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="music" type="button">music</button>
+                
+                <button class="tag-pill card-tag" data-tag="ai" type="button">ai</button>
+                
+                <button class="tag-pill card-tag" data-tag="audio" type="button">audio</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="liquid metal effect generator"
+                 data-description="a browser-based creative tool that generates mesmerizing liquid metal and chrome visual effects. adjust parameters to produce unique fluid metallic textures for design use."
+                 data-tags="tools design generative-art">
+            <h2><a href="https://liquid.paper.design/" target="_blank" rel="noopener noreferrer">Liquid Metal Effect Generator</a></h2>
+            <p class="description">A browser-based creative tool that generates mesmerizing liquid metal and chrome visual effects. Adjust parameters to produce unique fluid metallic textures for design use.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+                <button class="tag-pill card-tag" data-tag="generative-art" type="button">generative-art</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="musclewiki – exercise encyclopedia"
+                 data-description="an interactive anatomy-based fitness reference where you click on a muscle to find exercises that target it, complete with video demonstrations and instructions. a practical guide for gym-goers."
+                 data-tags="reference fitness health learning">
+            <h2><a href="https://musclewiki.com/" target="_blank" rel="noopener noreferrer">MuscleWiki – Exercise Encyclopedia</a></h2>
+            <p class="description">An interactive anatomy-based fitness reference where you click on a muscle to find exercises that target it, complete with video demonstrations and instructions. A practical guide for gym-goers.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="reference" type="button">reference</button>
+                
+                <button class="tag-pill card-tag" data-tag="fitness" type="button">fitness</button>
+                
+                <button class="tag-pill card-tag" data-tag="health" type="button">health</button>
+                
+                <button class="tag-pill card-tag" data-tag="learning" type="button">learning</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="nbfox – high-resolution fine art images"
+                 data-description="a gallery of high-resolution scans of world-famous paintings sourced from major museums, available for free download and use. browse masterworks from centuries of art history in stunning detail."
+                 data-tags="art reference museums free-resources">
+            <h2><a href="https://www.nbfox.com/" target="_blank" rel="noopener noreferrer">NBFox – High-Resolution Fine Art Images</a></h2>
+            <p class="description">A gallery of high-resolution scans of world-famous paintings sourced from major museums, available for free download and use. Browse masterworks from centuries of art history in stunning detail.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+                <button class="tag-pill card-tag" data-tag="reference" type="button">reference</button>
+                
+                <button class="tag-pill card-tag" data-tag="museums" type="button">museums</button>
+                
+                <button class="tag-pill card-tag" data-tag="free-resources" type="button">free-resources</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="noclip – video game map museum"
+                 data-description="a browser-based 3d viewer that lets you freely explore the levels and maps from dozens of classic video games, extracted directly from the game files. walk through nintendo, capcom, and other iconic game worlds."
+                 data-tags="art game 3d archive">
+            <h2><a href="https://noclip.website/" target="_blank" rel="noopener noreferrer">noclip – Video Game Map Museum</a></h2>
+            <p class="description">A browser-based 3D viewer that lets you freely explore the levels and maps from dozens of classic video games, extracted directly from the game files. Walk through Nintendo, Capcom, and other iconic game worlds.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+                <button class="tag-pill card-tag" data-tag="game" type="button">game</button>
+                
+                <button class="tag-pill card-tag" data-tag="3d" type="button">3d</button>
+                
+                <button class="tag-pill card-tag" data-tag="archive" type="button">archive</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="nyan cat"
+                 data-description="the original nyan cat website featuring the iconic internet meme of a flying pop-tart cat leaving a rainbow trail, accompanied by its looping chiptune theme song."
+                 data-tags="entertainment meme internet-culture">
+            <h2><a href="https://www.nyan.cat/" target="_blank" rel="noopener noreferrer">Nyan Cat</a></h2>
+            <p class="description">The original Nyan Cat website featuring the iconic internet meme of a flying pop-tart cat leaving a rainbow trail, accompanied by its looping chiptune theme song.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="entertainment" type="button">entertainment</button>
+                
+                <button class="tag-pill card-tag" data-tag="meme" type="button">meme</button>
+                
+                <button class="tag-pill card-tag" data-tag="internet-culture" type="button">internet-culture</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="pexels – free stock photos &amp; videos"
+                 data-description="a large library of free, high-quality stock photos and videos contributed by creators worldwide, all licensed for free personal and commercial use without attribution required."
+                 data-tags="reference photography free-resources design">
+            <h2><a href="https://www.pexels.com/zh-cn/" target="_blank" rel="noopener noreferrer">Pexels – Free Stock Photos &amp; Videos</a></h2>
+            <p class="description">A large library of free, high-quality stock photos and videos contributed by creators worldwide, all licensed for free personal and commercial use without attribution required.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="reference" type="button">reference</button>
+                
+                <button class="tag-pill card-tag" data-tag="photography" type="button">photography</button>
+                
+                <button class="tag-pill card-tag" data-tag="free-resources" type="button">free-resources</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="pod.link – podcast search engine"
+                 data-description="a universal podcast search and sharing tool that generates smart links to any podcast, automatically redirecting listeners to their preferred podcast app. great for discovering and sharing shows."
+                 data-tags="reference podcasts tools">
+            <h2><a href="https://pod.link/" target="_blank" rel="noopener noreferrer">Pod.link – Podcast Search Engine</a></h2>
+            <p class="description">A universal podcast search and sharing tool that generates smart links to any podcast, automatically redirecting listeners to their preferred podcast app. Great for discovering and sharing shows.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="reference" type="button">reference</button>
+                
+                <button class="tag-pill card-tag" data-tag="podcasts" type="button">podcasts</button>
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="pointer pointer"
+                 data-description="a delightfully pointless website that finds a photograph of someone pointing at exactly where your mouse cursor is on the screen. move your mouse to discover a new image every time."
+                 data-tags="entertainment interactive internet-culture">
+            <h2><a href="https://pointerpointer.com/" target="_blank" rel="noopener noreferrer">Pointer Pointer</a></h2>
+            <p class="description">A delightfully pointless website that finds a photograph of someone pointing at exactly where your mouse cursor is on the screen. Move your mouse to discover a new image every time.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="entertainment" type="button">entertainment</button>
+                
+                <button class="tag-pill card-tag" data-tag="interactive" type="button">interactive</button>
+                
+                <button class="tag-pill card-tag" data-tag="internet-culture" type="button">internet-culture</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="product hunt"
+                 data-description="a daily leaderboard and community for discovering the newest and most interesting apps, tools, and tech products. makers launch products here and the community votes on their favorites."
+                 data-tags="reference technology community tools">
+            <h2><a href="https://www.producthunt.com/" target="_blank" rel="noopener noreferrer">Product Hunt</a></h2>
+            <p class="description">A daily leaderboard and community for discovering the newest and most interesting apps, tools, and tech products. Makers launch products here and the community votes on their favorites.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="reference" type="button">reference</button>
+                
+                <button class="tag-pill card-tag" data-tag="technology" type="button">technology</button>
+                
+                <button class="tag-pill card-tag" data-tag="community" type="button">community</button>
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="radio garden – global radio globe"
+                 data-description="explore live radio stations from around the world by spinning an interactive 3d globe. click any green dot to instantly tune into a local radio station from that location."
+                 data-tags="music radio travel interactive">
+            <h2><a href="http://radio.garden/live/tokyo/j-idols-project-radio/" target="_blank" rel="noopener noreferrer">Radio Garden – Global Radio Globe</a></h2>
+            <p class="description">Explore live radio stations from around the world by spinning an interactive 3D globe. Click any green dot to instantly tune into a local radio station from that location.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="music" type="button">music</button>
+                
+                <button class="tag-pill card-tag" data-tag="radio" type="button">radio</button>
+                
+                <button class="tag-pill card-tag" data-tag="travel" type="button">travel</button>
+                
+                <button class="tag-pill card-tag" data-tag="interactive" type="button">interactive</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="remove.bg – background remover"
+                 data-description="an ai-powered tool that instantly and accurately removes backgrounds from photos in one click. works especially well on portraits and product images with complex edges."
+                 data-tags="tools ai image-editing design">
+            <h2><a href="https://www.remove.bg/" target="_blank" rel="noopener noreferrer">Remove.bg – Background Remover</a></h2>
+            <p class="description">An AI-powered tool that instantly and accurately removes backgrounds from photos in one click. Works especially well on portraits and product images with complex edges.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="ai" type="button">ai</button>
+                
+                <button class="tag-pill card-tag" data-tag="image-editing" type="button">image-editing</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="retryables – creative mini-games collection"
+                 data-description="a curated collection of creative, experimental browser-based mini-games and interactive experiences. each game is unique and designed to be replayed."
+                 data-tags="game browser-game interactive">
+            <h2><a href="https://retryables.com/" target="_blank" rel="noopener noreferrer">Retryables – Creative Mini-Games Collection</a></h2>
+            <p class="description">A curated collection of creative, experimental browser-based mini-games and interactive experiences. Each game is unique and designed to be replayed.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="game" type="button">game</button>
+                
+                <button class="tag-pill card-tag" data-tag="browser-game" type="button">browser-game</button>
+                
+                <button class="tag-pill card-tag" data-tag="interactive" type="button">interactive</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="rooms.xyz – interactive room builder"
+                 data-description="a browser-based sandbox for building and decorating virtual 3d rooms with furniture and objects. create whimsical spaces and share them as interactive links."
+                 data-tags="art design 3d browser-game">
+            <h2><a href="https://rooms.xyz/" target="_blank" rel="noopener noreferrer">Rooms.xyz – Interactive Room Builder</a></h2>
+            <p class="description">A browser-based sandbox for building and decorating virtual 3D rooms with furniture and objects. Create whimsical spaces and share them as interactive links.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+                <button class="tag-pill card-tag" data-tag="3d" type="button">3d</button>
+                
+                <button class="tag-pill card-tag" data-tag="browser-game" type="button">browser-game</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="sandtris"
+                 data-description="a browser-based puzzle game combining tetris-style falling blocks with falling sand physics simulation. watch your pieces dissolve into cascading sand particles."
+                 data-tags="game puzzle browser-game">
+            <h2><a href="https://sandtris.com/" target="_blank" rel="noopener noreferrer">Sandtris</a></h2>
+            <p class="description">A browser-based puzzle game combining Tetris-style falling blocks with falling sand physics simulation. Watch your pieces dissolve into cascading sand particles.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="game" type="button">game</button>
+                
+                <button class="tag-pill card-tag" data-tag="puzzle" type="button">puzzle</button>
+                
+                <button class="tag-pill card-tag" data-tag="browser-game" type="button">browser-game</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="shotdeck – film reference library"
+                 data-description="a searchable visual library of cinematic still frames from thousands of films, filterable by color, lighting, lens, aspect ratio, and mood. an essential reference tool for filmmakers and cinematographers."
+                 data-tags="reference film cinematography design">
+            <h2><a href="https://shotdeck.com/welcome/home" target="_blank" rel="noopener noreferrer">ShotDeck – Film Reference Library</a></h2>
+            <p class="description">A searchable visual library of cinematic still frames from thousands of films, filterable by color, lighting, lens, aspect ratio, and mood. An essential reference tool for filmmakers and cinematographers.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="reference" type="button">reference</button>
+                
+                <button class="tag-pill card-tag" data-tag="film" type="button">film</button>
+                
+                <button class="tag-pill card-tag" data-tag="cinematography" type="button">cinematography</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="sketchfab – 3d model viewer &amp; marketplace"
+                 data-description="the largest platform for publishing, sharing, and discovering 3d and ar/vr content. browse millions of free and purchasable 3d models viewable directly in the browser."
+                 data-tags="tools 3d design art">
+            <h2><a href="https://sketchfab.com/" target="_blank" rel="noopener noreferrer">Sketchfab – 3D Model Viewer &amp; Marketplace</a></h2>
+            <p class="description">The largest platform for publishing, sharing, and discovering 3D and AR/VR content. Browse millions of free and purchasable 3D models viewable directly in the browser.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="3d" type="button">3d</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="slow roads"
+                 data-description="a relaxing, endless procedurally generated driving experience in the browser. choose your scenery and just drive through beautiful landscapes with no objectives or pressure."
+                 data-tags="game relaxation procedural-generation browser-game">
+            <h2><a href="https://slowroads.io/" target="_blank" rel="noopener noreferrer">Slow Roads</a></h2>
+            <p class="description">A relaxing, endless procedurally generated driving experience in the browser. Choose your scenery and just drive through beautiful landscapes with no objectives or pressure.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="game" type="button">game</button>
+                
+                <button class="tag-pill card-tag" data-tag="relaxation" type="button">relaxation</button>
+                
+                <button class="tag-pill card-tag" data-tag="procedural-generation" type="button">procedural-generation</button>
+                
+                <button class="tag-pill card-tag" data-tag="browser-game" type="button">browser-game</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="songsterr – guitar tabs &amp; sheet music"
+                 data-description="a large online library of interactive guitar, bass, and drum tabs with playback. tabs scroll in sync with audio so you can follow along and practice songs at your own pace."
+                 data-tags="music guitar tabs learning">
+            <h2><a href="https://www.songsterr.com/" target="_blank" rel="noopener noreferrer">Songsterr – Guitar Tabs &amp; Sheet Music</a></h2>
+            <p class="description">A large online library of interactive guitar, bass, and drum tabs with playback. Tabs scroll in sync with audio so you can follow along and practice songs at your own pace.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="music" type="button">music</button>
+                
+                <button class="tag-pill card-tag" data-tag="guitar" type="button">guitar</button>
+                
+                <button class="tag-pill card-tag" data-tag="tabs" type="button">tabs</button>
+                
+                <button class="tag-pill card-tag" data-tag="learning" type="button">learning</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="spread the sign – sign language dictionary"
+                 data-description="a multilingual online sign language video dictionary covering dozens of countries&#39; sign languages. look up words and see video demonstrations of how to sign them."
+                 data-tags="learning sign-language accessibility language">
+            <h2><a href="https://www.spreadthesign.com/" target="_blank" rel="noopener noreferrer">Spread the Sign – Sign Language Dictionary</a></h2>
+            <p class="description">A multilingual online sign language video dictionary covering dozens of countries&#39; sign languages. Look up words and see video demonstrations of how to sign them.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="learning" type="button">learning</button>
+                
+                <button class="tag-pill card-tag" data-tag="sign-language" type="button">sign-language</button>
+                
+                <button class="tag-pill card-tag" data-tag="accessibility" type="button">accessibility</button>
+                
+                <button class="tag-pill card-tag" data-tag="language" type="button">language</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="spurious correlations"
+                 data-description="a humorous data project by tyler vigen that charts absurd but statistically real correlations between unrelated variables, like nicolas cage films and drowning rates. a fun lesson in why correlation is not causation."
+                 data-tags="entertainment data-visualization statistics">
+            <h2><a href="http://tylervigen.com/spurious-correlations" target="_blank" rel="noopener noreferrer">Spurious Correlations</a></h2>
+            <p class="description">A humorous data project by Tyler Vigen that charts absurd but statistically real correlations between unrelated variables, like Nicolas Cage films and drowning rates. A fun lesson in why correlation is not causation.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="entertainment" type="button">entertainment</button>
+                
+                <button class="tag-pill card-tag" data-tag="data-visualization" type="button">data-visualization</button>
+                
+                <button class="tag-pill card-tag" data-tag="statistics" type="button">statistics</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="stable diffusion – hugging face demo"
+                 data-description="a free browser demo of stability ai&#39;s stable diffusion image generation model hosted on hugging face spaces. type a text prompt and generate ai images without any local setup."
+                 data-tags="ai image-generation art tools">
+            <h2><a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank" rel="noopener noreferrer">Stable Diffusion – Hugging Face Demo</a></h2>
+            <p class="description">A free browser demo of Stability AI&#39;s Stable Diffusion image generation model hosted on Hugging Face Spaces. Type a text prompt and generate AI images without any local setup.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="ai" type="button">ai</button>
+                
+                <button class="tag-pill card-tag" data-tag="image-generation" type="button">image-generation</button>
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="suno – ai music generator"
+                 data-description="an ai-powered music generation platform that creates full songs complete with lyrics, vocals, and instrumentation from a text prompt. generate music in any genre in seconds."
+                 data-tags="music ai generative-art">
+            <h2><a href="https://suno.com/" target="_blank" rel="noopener noreferrer">Suno – AI Music Generator</a></h2>
+            <p class="description">An AI-powered music generation platform that creates full songs complete with lyrics, vocals, and instrumentation from a text prompt. Generate music in any genre in seconds.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="music" type="button">music</button>
+                
+                <button class="tag-pill card-tag" data-tag="ai" type="button">ai</button>
+                
+                <button class="tag-pill card-tag" data-tag="generative-art" type="button">generative-art</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="the pudding"
+                 data-description="a digital publication that uses visual essays and data journalism to explore culture, music, film, and society. each piece is a richly interactive, data-driven narrative."
+                 data-tags="data-visualization journalism culture interactive">
+            <h2><a href="https://pudding.cool/" target="_blank" rel="noopener noreferrer">The Pudding</a></h2>
+            <p class="description">A digital publication that uses visual essays and data journalism to explore culture, music, film, and society. Each piece is a richly interactive, data-driven narrative.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="data-visualization" type="button">data-visualization</button>
+                
+                <button class="tag-pill card-tag" data-tag="journalism" type="button">journalism</button>
+                
+                <button class="tag-pill card-tag" data-tag="culture" type="button">culture</button>
+                
+                <button class="tag-pill card-tag" data-tag="interactive" type="button">interactive</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="the useless web"
+                 data-description="a button that sends you to a random, wonderfully pointless website from the long tradition of weird, creative, and absurd corners of the internet. press it and surrender to serendipity."
+                 data-tags="entertainment internet-culture random">
+            <h2><a href="http://www.theuselessweb.com/" target="_blank" rel="noopener noreferrer">The Useless Web</a></h2>
+            <p class="description">A button that sends you to a random, wonderfully pointless website from the long tradition of weird, creative, and absurd corners of the internet. Press it and surrender to serendipity.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="entertainment" type="button">entertainment</button>
+                
+                <button class="tag-pill card-tag" data-tag="internet-culture" type="button">internet-culture</button>
+                
+                <button class="tag-pill card-tag" data-tag="random" type="button">random</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="tuxun – geography guessing game"
+                 data-description="a geoguessr-style geography guessing game where you identify locations from street-level panoramic images. compete against others or play solo to test your world geography knowledge."
+                 data-tags="game geography maps">
+            <h2><a href="https://tuxun.fun/" target="_blank" rel="noopener noreferrer">Tuxun – Geography Guessing Game</a></h2>
+            <p class="description">A GeoGuessr-style geography guessing game where you identify locations from street-level panoramic images. Compete against others or play solo to test your world geography knowledge.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="game" type="button">game</button>
+                
+                <button class="tag-pill card-tag" data-tag="geography" type="button">geography</button>
+                
+                <button class="tag-pill card-tag" data-tag="maps" type="button">maps</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="typeracer – typing speed competition"
+                 data-description="a multiplayer typing race game where you compete against others in real time by typing out quotes from books, movies, and songs. a fun and effective way to improve your typing speed."
+                 data-tags="game typing multiplayer learning">
+            <h2><a href="https://play.typeracer.com/" target="_blank" rel="noopener noreferrer">TypeRacer – Typing Speed Competition</a></h2>
+            <p class="description">A multiplayer typing race game where you compete against others in real time by typing out quotes from books, movies, and songs. A fun and effective way to improve your typing speed.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="game" type="button">game</button>
+                
+                <button class="tag-pill card-tag" data-tag="typing" type="button">typing</button>
+                
+                <button class="tag-pill card-tag" data-tag="multiplayer" type="button">multiplayer</button>
+                
+                <button class="tag-pill card-tag" data-tag="learning" type="button">learning</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="user inyerface – worst ui game"
+                 data-description="a darkly humorous browser game that deliberately uses every known ui/ux anti-pattern and dark pattern to frustrate you as you try to fill out a form. educational and infuriating in equal measure."
+                 data-tags="entertainment game ux-design browser-game">
+            <h2><a href="https://userinyerface.com/game.html" target="_blank" rel="noopener noreferrer">User Inyerface – Worst UI Game</a></h2>
+            <p class="description">A darkly humorous browser game that deliberately uses every known UI/UX anti-pattern and dark pattern to frustrate you as you try to fill out a form. Educational and infuriating in equal measure.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="entertainment" type="button">entertainment</button>
+                
+                <button class="tag-pill card-tag" data-tag="game" type="button">game</button>
+                
+                <button class="tag-pill card-tag" data-tag="ux-design" type="button">ux-design</button>
+                
+                <button class="tag-pill card-tag" data-tag="browser-game" type="button">browser-game</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="virtual mauritshuis museum"
+                 data-description="a fully immersive virtual tour of the mauritshuis museum in the hague, home to vermeer&#39;s girl with a pearl earring and other dutch golden age masterpieces. explore galleries at your own pace."
+                 data-tags="art museums virtual-tour history">
+            <h2><a href="https://virtual.mauritshuis.nl/index.html" target="_blank" rel="noopener noreferrer">Virtual Mauritshuis Museum</a></h2>
+            <p class="description">A fully immersive virtual tour of the Mauritshuis museum in The Hague, home to Vermeer&#39;s Girl with a Pearl Earring and other Dutch Golden Age masterpieces. Explore galleries at your own pace.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+                <button class="tag-pill card-tag" data-tag="museums" type="button">museums</button>
+                
+                <button class="tag-pill card-tag" data-tag="virtual-tour" type="button">virtual-tour</button>
+                
+                <button class="tag-pill card-tag" data-tag="history" type="button">history</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="virtual st. peter&#39;s basilica"
+                 data-description="an official immersive virtual tour of st. peter&#39;s basilica in vatican city, allowing you to explore the iconic renaissance church in stunning high-resolution 360-degree detail."
+                 data-tags="virtual-tour art history architecture">
+            <h2><a href="https://virtual.basilicasanpietro.va/en" target="_blank" rel="noopener noreferrer">Virtual St. Peter&#39;s Basilica</a></h2>
+            <p class="description">An official immersive virtual tour of St. Peter&#39;s Basilica in Vatican City, allowing you to explore the iconic Renaissance church in stunning high-resolution 360-degree detail.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="virtual-tour" type="button">virtual-tour</button>
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+                <button class="tag-pill card-tag" data-tag="history" type="button">history</button>
+                
+                <button class="tag-pill card-tag" data-tag="architecture" type="button">architecture</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="wallhaven – wallpaper community"
+                 data-description="a large community-curated wallpaper site with millions of high-resolution desktop wallpapers. features powerful filtering by resolution, aspect ratio, color, and category."
+                 data-tags="reference wallpapers design community">
+            <h2><a href="https://wallhaven.cc/" target="_blank" rel="noopener noreferrer">Wallhaven – Wallpaper Community</a></h2>
+            <p class="description">A large community-curated wallpaper site with millions of high-resolution desktop wallpapers. Features powerful filtering by resolution, aspect ratio, color, and category.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="reference" type="button">reference</button>
+                
+                <button class="tag-pill card-tag" data-tag="wallpapers" type="button">wallpapers</button>
+                
+                <button class="tag-pill card-tag" data-tag="design" type="button">design</button>
+                
+                <button class="tag-pill card-tag" data-tag="community" type="button">community</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="watabou&#39;s procedural generators"
+                 data-description="a collection of procedural map and world generators for tabletop rpgs and game development, including city maps, dungeon layouts, and fantasy regions. all run in the browser with one click."
+                 data-tags="tools game-design procedural-generation maps">
+            <h2><a href="https://watabou.github.io/" target="_blank" rel="noopener noreferrer">Watabou&#39;s Procedural Generators</a></h2>
+            <p class="description">A collection of procedural map and world generators for tabletop RPGs and game development, including city maps, dungeon layouts, and fantasy regions. All run in the browser with one click.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="game-design" type="button">game-design</button>
+                
+                <button class="tag-pill card-tag" data-tag="procedural-generation" type="button">procedural-generation</button>
+                
+                <button class="tag-pill card-tag" data-tag="maps" type="button">maps</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="weave silk – generative art canvas"
+                 data-description="an interactive generative art tool that creates beautiful, symmetrical silk-like patterns as you draw with your mouse. every stroke produces mesmerizing, mirror-reflected flowing lines."
+                 data-tags="art generative-art interactive creative-tools">
+            <h2><a href="http://weavesilk.com/" target="_blank" rel="noopener noreferrer">Weave Silk – Generative Art Canvas</a></h2>
+            <p class="description">An interactive generative art tool that creates beautiful, symmetrical silk-like patterns as you draw with your mouse. Every stroke produces mesmerizing, mirror-reflected flowing lines.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="art" type="button">art</button>
+                
+                <button class="tag-pill card-tag" data-tag="generative-art" type="button">generative-art</button>
+                
+                <button class="tag-pill card-tag" data-tag="interactive" type="button">interactive</button>
+                
+                <button class="tag-pill card-tag" data-tag="creative-tools" type="button">creative-tools</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="window swap"
+                 data-description="a community project where people share video recordings of the view from their windows, letting you virtually look out of a stranger&#39;s window anywhere in the world. calming and unexpectedly moving."
+                 data-tags="entertainment community travel relaxation">
+            <h2><a href="https://window-swap.com/" target="_blank" rel="noopener noreferrer">Window Swap</a></h2>
+            <p class="description">A community project where people share video recordings of the view from their windows, letting you virtually look out of a stranger&#39;s window anywhere in the world. Calming and unexpectedly moving.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="entertainment" type="button">entertainment</button>
+                
+                <button class="tag-pill card-tag" data-tag="community" type="button">community</button>
+                
+                <button class="tag-pill card-tag" data-tag="travel" type="button">travel</button>
+                
+                <button class="tag-pill card-tag" data-tag="relaxation" type="button">relaxation</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="windy – interactive weather map"
+                 data-description="a beautifully animated, interactive global weather map showing wind, precipitation, temperature, and air quality in real time. used by pilots, sailors, and weather enthusiasts worldwide."
+                 data-tags="tools weather maps data-visualization">
+            <h2><a href="https://www.windy.com/" target="_blank" rel="noopener noreferrer">Windy – Interactive Weather Map</a></h2>
+            <p class="description">A beautifully animated, interactive global weather map showing wind, precipitation, temperature, and air quality in real time. Used by pilots, sailors, and weather enthusiasts worldwide.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+                <button class="tag-pill card-tag" data-tag="weather" type="button">weather</button>
+                
+                <button class="tag-pill card-tag" data-tag="maps" type="button">maps</button>
+                
+                <button class="tag-pill card-tag" data-tag="data-visualization" type="button">data-visualization</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="wolfram alpha – computational knowledge engine"
+                 data-description="a unique computational search engine that answers factual and mathematical queries by computing answers from curated data, rather than linking to web pages. handles math, science, history, and more."
+                 data-tags="learning mathematics science tools">
+            <h2><a href="http://www.wolframalpha.com/" target="_blank" rel="noopener noreferrer">Wolfram Alpha – Computational Knowledge Engine</a></h2>
+            <p class="description">A unique computational search engine that answers factual and mathematical queries by computing answers from curated data, rather than linking to web pages. Handles math, science, history, and more.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="learning" type="button">learning</button>
+                
+                <button class="tag-pill card-tag" data-tag="mathematics" type="button">mathematics</button>
+                
+                <button class="tag-pill card-tag" data-tag="science" type="button">science</button>
+                
+                <button class="tag-pill card-tag" data-tag="tools" type="button">tools</button>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="simple home recipes"
+                 data-description="a clean, minimal recipe site featuring easy everyday recipes designed for home cooking, presented in a simple, readable format without clutter or excessive photography."
+                 data-tags="life cooking recipes">
+            <h2><a href="https://cook.yunyoujun.cn/" target="_blank" rel="noopener noreferrer">Simple Home Recipes</a></h2>
+            <p class="description">A clean, minimal recipe site featuring easy everyday recipes designed for home cooking, presented in a simple, readable format without clutter or excessive photography.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <button class="tag-pill card-tag" data-tag="life" type="button">life</button>
+                
+                <button class="tag-pill card-tag" data-tag="cooking" type="button">cooking</button>
+                
+                <button class="tag-pill card-tag" data-tag="recipes" type="button">recipes</button>
                 
             </div>
         </article>
         
     </main>
+
+    <nav class="pagination" id="pagination-bottom"></nav>
 
     <footer>
         <a href="feed.xml">RSS Feed</a>

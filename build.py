@@ -37,12 +37,14 @@ def load_entries(entries_dir):
     return entries
 
 
-def collect_tags(entries):
-    """Collect all unique tags, sorted alphabetically."""
-    tags = set()
+def collect_tags(entries, limit=10):
+    """Collect top tags by frequency."""
+    counts = {}
     for entry in entries:
-        tags.update(entry["tags"])
-    return sorted(tags)
+        for tag in entry["tags"]:
+            counts[tag] = counts.get(tag, 0) + 1
+    ranked = sorted(counts.items(), key=lambda x: (-x[1], x[0]))
+    return [tag for tag, _ in ranked[:limit]]
 
 
 def build(entries_dir=None, templates_dir=None, static_dir=None, output_dir=None):

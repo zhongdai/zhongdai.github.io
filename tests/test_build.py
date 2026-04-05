@@ -61,11 +61,19 @@ date: 2026-04-01
         assert entries[1]["title"] == "Old"
 
 
-def test_collect_all_tags():
+def test_collect_tags_top_by_frequency():
     from build import collect_tags
     entries = [
         {"tags": ["python", "tools"]},
         {"tags": ["tools", "design"]},
+        {"tags": ["tools", "python"]},
     ]
+    tags = collect_tags(entries, limit=2)
+    assert tags == ["tools", "python"]
+
+
+def test_collect_tags_default_limit():
+    from build import collect_tags
+    entries = [{"tags": [f"tag{i}"]} for i in range(20)]
     tags = collect_tags(entries)
-    assert tags == ["design", "python", "tools"]
+    assert len(tags) == 10

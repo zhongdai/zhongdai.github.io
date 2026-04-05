@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/style.css">
     <link rel="alternate" type="application/atom+xml" title="Finds Feed" href="feed.xml">
 </head>
@@ -29,6 +32,8 @@
         <p class="entry-count" id="entry-count"></p>
     </div>
 
+    <nav class="pagination" id="pagination-top"></nav>
+
     <main class="card-grid" id="card-grid">
         {% for entry in entries %}
         <article class="card"
@@ -40,12 +45,14 @@
             <time datetime="{{ entry.date }}">{{ entry.date.strftime('%b %-d, %Y') }}</time>
             <div class="tags">
                 {% for tag in entry.tags %}
-                <span class="tag-pill">{{ tag }}</span>
+                <button class="tag-pill card-tag" data-tag="{{ tag }}" type="button">{{ tag }}</button>
                 {% endfor %}
             </div>
         </article>
         {% endfor %}
     </main>
+
+    <nav class="pagination" id="pagination-bottom"></nav>
 
     <footer>
         <a href="feed.xml">RSS Feed</a>
