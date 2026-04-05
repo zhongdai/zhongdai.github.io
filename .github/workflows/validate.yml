@@ -1,0 +1,48 @@
+name: Validate Links
+
+on:
+  pull_request:
+    paths:
+      - 'entries/**'
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday at 9am UTC
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml requests
+
+      - name: Check for dead links
+        id: validate
+        run: python validate.py
+
+  open-issue:
+    needs: validate
+    if: failure() && github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Create issue for broken links
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Dead links detected',
+              body: 'The weekly link validation found broken links. Run `python validate.py` locally to see details.',
+              labels: ['bug']
+            });
