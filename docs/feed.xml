@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Bookmarks</title>
+    <link href="https://zhongdai.github.io/" rel="alternate"/>
+    <link href="https://zhongdai.github.io/feed.xml" rel="self"/>
+    <updated>2026-04-04T00:00:00Z</updated>
+    <id>https://zhongdai.github.io/</id>
+    
+    <entry>
+        <title>Example Site</title>
+        <link href="https://example.com" rel="alternate"/>
+        <id>https://example.com</id>
+        <updated>2026-04-04T00:00:00Z</updated>
+        <summary>A placeholder entry for testing the build process.</summary>
+    </entry>
+    
+    <entry>
+        <title>Jinja2 Documentation</title>
+        <link href="https://jinja.palletsprojects.com" rel="alternate"/>
+        <id>https://jinja.palletsprojects.com</id>
+        <updated>2026-04-03T00:00:00Z</updated>
+        <summary>The official documentation for the Jinja2 template engine.</summary>
+    </entry>
+    
+</feed>

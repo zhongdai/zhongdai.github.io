@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarks</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="alternate" type="application/atom+xml" title="Bookmarks Feed" href="feed.xml">
+</head>
+<body>
+    <header>
+        <h1>Bookmarks</h1>
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <span class="icon-sun">&#9728;</span>
+            <span class="icon-moon">&#9790;</span>
+        </button>
+    </header>
+
+    <div class="controls">
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search bookmarks..." aria-label="Search bookmarks">
+            <button id="clear-filters" type="button">Clear</button>
+        </div>
+        <div class="tag-bar" id="tag-bar">
+            
+            <button class="tag-pill" data-tag="docs" type="button">docs</button>
+            
+            <button class="tag-pill" data-tag="example" type="button">example</button>
+            
+            <button class="tag-pill" data-tag="python" type="button">python</button>
+            
+        </div>
+        <p class="entry-count" id="entry-count"></p>
+    </div>
+
+    <main class="card-grid" id="card-grid">
+        
+        <article class="card"
+                 data-title="example site"
+                 data-description="a placeholder entry for testing the build process."
+                 data-tags="example">
+            <h2><a href="https://example.com" target="_blank" rel="noopener noreferrer">Example Site</a></h2>
+            <p class="description">A placeholder entry for testing the build process.</p>
+            <time datetime="2026-04-04">Apr 4, 2026</time>
+            <div class="tags">
+                
+                <span class="tag-pill">example</span>
+                
+            </div>
+        </article>
+        
+        <article class="card"
+                 data-title="jinja2 documentation"
+                 data-description="the official documentation for the jinja2 template engine."
+                 data-tags="python docs">
+            <h2><a href="https://jinja.palletsprojects.com" target="_blank" rel="noopener noreferrer">Jinja2 Documentation</a></h2>
+            <p class="description">The official documentation for the Jinja2 template engine.</p>
+            <time datetime="2026-04-03">Apr 3, 2026</time>
+            <div class="tags">
+                
+                <span class="tag-pill">python</span>
+                
+                <span class="tag-pill">docs</span>
+                
+            </div>
+        </article>
+        
+    </main>
+
+    <footer>
+        <a href="feed.xml">RSS Feed</a>
+    </footer>
+
+    <script src="static/app.js"></script>
+</body>
+</html>

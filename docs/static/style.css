@@ -1,0 +1,252 @@
+/* === Reset & Base === */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg: #ffffff;
+    --bg-card: #f9f9f9;
+    --text: #1a1a1a;
+    --text-muted: #666666;
+    --border: #e0e0e0;
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
+    --tag-bg: #e8f0fe;
+    --tag-text: #1e40af;
+    --tag-active-bg: #2563eb;
+    --tag-active-text: #ffffff;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    --radius: 8px;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+[data-theme="dark"] {
+    --bg: #0f0f0f;
+    --bg-card: #1a1a1a;
+    --text: #e5e5e5;
+    --text-muted: #999999;
+    --border: #333333;
+    --accent: #60a5fa;
+    --accent-hover: #93bbfd;
+    --tag-bg: #1e3a5f;
+    --tag-text: #93c5fd;
+    --tag-active-bg: #60a5fa;
+    --tag-active-text: #0f0f0f;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    transition: background 0.2s, color 0.2s;
+}
+
+/* === Header === */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1.5rem;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#theme-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--text);
+    transition: border-color 0.2s;
+}
+
+#theme-toggle:hover {
+    border-color: var(--accent);
+}
+
+/* Show sun in dark mode, moon in light mode */
+.icon-sun { display: none; }
+.icon-moon { display: inline; }
+[data-theme="dark"] .icon-sun { display: inline; }
+[data-theme="dark"] .icon-moon { display: none; }
+
+/* === Controls === */
+.controls {
+    margin-bottom: 1.5rem;
+}
+
+.search-bar {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 0.6rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    font-size: 1rem;
+    background: var(--bg-card);
+    color: var(--text);
+    transition: border-color 0.2s;
+}
+
+.search-bar input:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.search-bar button {
+    padding: 0.6rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: border-color 0.2s;
+}
+
+.search-bar button:hover {
+    border-color: var(--accent);
+    color: var(--text);
+}
+
+.tag-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.tag-pill {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+button.tag-pill:hover {
+    background: var(--tag-active-bg);
+    color: var(--tag-active-text);
+}
+
+button.tag-pill.active {
+    background: var(--tag-active-bg);
+    color: var(--tag-active-text);
+}
+
+.entry-count {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* === Card Grid === */
+.card-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+    .card-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1024px) {
+    .card-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    box-shadow: var(--shadow);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    border-color: var(--accent);
+}
+
+.card.hidden {
+    display: none;
+}
+
+.card h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.card h2 a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.card h2 a:hover {
+    text-decoration: underline;
+}
+
+.card .description {
+    font-size: 0.95rem;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+}
+
+.card time {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.card .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+.card .tags .tag-pill {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    cursor: default;
+}
+
+/* === Footer === */
+footer {
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+footer a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
